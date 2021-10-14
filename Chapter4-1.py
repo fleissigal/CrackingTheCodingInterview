@@ -8,12 +8,12 @@ def dfs(graph, start, end):
     visited = []
     stack.append(start)
     while stack:
-        next = stack.pop()
-        visited.append(next)
-        if next == end:
+        next_node = stack.pop()
+        visited.append(next_node)
+        if next_node == end:
             return True
         else:
-            for node in graph.adj[next]:
+            for node in graph.adj[next_node]:
                 if node not in visited:
                     stack.append(node)
     return False

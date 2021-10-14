@@ -23,6 +23,9 @@ class LinkedList:
             self.tail.next = node
             self.tail = node
 
+    def isEmpty(self):
+        return self.head is None
+
     def printList(self):
         node = self.head
         while node is not None:
