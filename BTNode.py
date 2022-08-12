@@ -8,9 +8,26 @@ class BTNode:
         self.data = data
         self.left = None
         self.right = None
+        self.parent = None
 
         self.leftNumNodes = 0
         self.rightNumNodes = 0
+
+    def find(self, value):
+        if self is None:
+            return None
+        if self.data == value:
+            return self
+        elif self.data < value:
+            if self.right:
+                return self.right.find(value)
+            else:
+                return None
+        else:
+            if self.left:
+                return self.left.find(value)
+            else:
+                return None
 
     def setLeftNumNodes(self, num):
         self.leftNumNodes = num
