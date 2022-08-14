@@ -14,7 +14,7 @@ class Song:
         return
 
 class Juke:
-    archive = [] #array of songs
+    collection = [] #array of songs
     playlist = deque() #queue of songs
     payments = [] #array og payments
 
