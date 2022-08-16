@@ -55,3 +55,4 @@ if __name__ == '__main__':
 
     print(nondistinctMagicIndex([-3, -1, 2, 2, 2, 6, 7]))
     print(nondistinctMagicIndex([-10, -5, 2, 2, 2, 3, 4, 5, 9, 12, 13]))
+    print(nondistinctMagicIndex([-5, -4, -3, -2, -1, 0]))
