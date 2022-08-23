@@ -8,7 +8,7 @@ def auxSearchInRotatedArray(arr, element, left, right):
     mid = (left + right) // 2
     if arr[mid] == element:
         return mid
-    if mid >= right:
+    if left >= right:
         return -1
 
     if arr[mid] < arr[right]:
