@@ -3,7 +3,6 @@ Answer to Question 7.3
 """
 
 from collections import deque
-from enum import Enum
 
 class Song:
     duration = ""

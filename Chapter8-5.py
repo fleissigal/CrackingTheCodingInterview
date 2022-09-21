@@ -1,4 +1,4 @@
-# Origianl question - integers are necessarily distinct
+# Original question - integers are necessarily distinct
 
 def recursiveMultiply(a, b):
     return auxRecursiveMultiply(max(a, b), min(a, b))

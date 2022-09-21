@@ -3,7 +3,6 @@ Answer to Question 7.5
 """
 
 from collections import deque
-from enum import Enum
 
 class Display:
     currPage = "" #page object
